@@ -1,51 +1,135 @@
-<html> 
-    <head>
-        
-        <meta name="author" content="Manish Bikram MAlla">
-        <meta name="keyword" content="html">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
     
-        <title>
-            MANISH STORE
-        </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE SAMPLE </title>
+</head>
+<style>
+    table,
+    td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th,
+    td {
+        padding: 30px;
+    }
 
-    </head>
+    table {
+    margin-right: 25%;
+    margin-left: 25%;
+    border-collapse: collapse;
+    width: 50%;
+  }
+    td, th {
+    border: 5px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+    caption{
+    font-size: 40px;
+  }
+</style>
+<body>
+    <table border="1">
+        <caption><h1> This is a sample table.</h1></caption>
 
-    <body> 
+        <tr>
+            <th   rowspan="2">Name</th>
+            <th rowspan="2">Class</th>
+            <th rowspan="2">Roll</th>
+            <th rowspan="2" >Email</th>
+            <th rowspan="2">Gender</th>
+            <th colspan="2">subject</th>
+            <th rowspan="2">Points</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>Manish</td>
+            <td>12</td>
+            <td>12</td>
+            <td>manishmamma21@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>NO</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Suraj</td>
+            <td>12</td>
+            <td>13</td>
+            <td>surajyadav@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>yes</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Kiran</td>
+            <td>12</td>
+            <td>14</td>
+            <td>kiranpathak21@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>NO</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Gopal</td>
+            <td>12</td>
+            <td>15</td>
+            <td>gopalthapa321@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>NO</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Ankita</td>
+            <td>12</td>
+            <td>16</td>
+            <td>joshiankita321@gmail.com</td>
+            <td>Female</td>
+            <td>No</td>
+            <td>NO</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Kabita</td>
+            <td>12</td>
+            <td>17</td>
+            <td>joshikabita432@gmail.com</td>
+            <td>Female</td>
+            <td>No</td>
+            <td>NO</td>
+            <td>20</td>
+        </tr>
+      
+        <tr>
 
-    <video width="600" height="300" controls autoplay muted>
-        <source src="Chris Brown - No Guidance (Audio) ft. Drake.mp4" type="Rocking Star/mp4">
-        your browser does not support this format
-        </video>
-        <h1> NIKE  </h1>
-        <p><i> <b><mark> Nike ZoomX Streakfly </mark> </b></i></p>
-        
-        <img src="nike2.jpg" alt="Shoes" width="400">
-        <img src="nike3.jpg" alt="Shoes" width="400">
-        <img src="nike4.jpg" alt="Shoes" width="200" >
-        <h2> PRICE</h2>
-        <p> <b>$120 </b></p>
-        <p> <b>Gender</b>:Male</p>
-        <p> <b>Weight</b>:171 gr</p>
-        <p> <b>Size</b>:9 USA</p>
-        <p> <b>Running terrain</b>:Road</p>
-        <p> <b>Running pace</b>:Fast(4min/km) </p>
-        <p> <b>Detaile:</b></p>
-        <pre><h3>
-           .Ideal for those looking for light shoes that transmit a feeling of direct contact with the ground and perfect for 
-             fast competitions up to 10k
-           .  Upper in ultra-thin, snug and super breathable knit which, despite its lightness, offers support and safety
-           .  Lightweight and responsive midsole that helps you reach maximum speed without sacrificing the right degree of cushioning
-           .  Sole made with anti-abrasion rubber compound in the forefoot that guarantees better grip and grip
-           .  Full-length side printed inserts and at the base of the foot that allow the foot to always remain in position inside the shoe
-           .  Off-center lacing system, with sewn eyelets and flat laces, to maximize the adherence of the shoe to the foot
-           .  Padded collar inside with an anatomical pad that hugs the back of the heel for maximum comfort
-           .  Thin, shaped and lightly padded tongue that relieves the pressure of the laces on the back of the foot
-           .  Non-removable inner sole
-          </h3></pre>
-          <h4> For More Details:</h4>
-          <a href="https://www.misterrunning.com/en/nike-zoomx-streakfly-mens-running-shoes-coconut-milk-dx3415-100.html">click here</a>
-          <p><b> THANK YOU</p> </b>
-          
-    </body>
+         <td colspan="7"> Total Number Obtained</td>
+        <td> 540</td> 
+         </tr>
+
+    </table>
+    <input type="radio" id="male" name="gender" value="male"/>
+    <label for="male">Male</label><br/>
+    <input type="radio" id="Female" name="gender" value="Female"/>
+    <label for="Female">Female</label><br/>
+    <input type="radio" id="other" name="gender" value="other"/>
+    <label for="other">other</label><br/>
+
+
+   
+    </form>
+    
+</body>
 </html>
+
