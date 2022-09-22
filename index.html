@@ -1,37 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-.one{
-    padding: 50px;
-    margin: 200px;
-    width: 500px;
-    border: 1px solid red;
-}
-#param1{
-    color:red;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    word-spacing: 1opx;
-}
-    </style>
+    <title>TABLE SAMPLE </title>
 </head>
+<style>
+    table,
+    td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th,
+    td {
+        padding: 30px;
+    }
+
+    table {
+    margin-right: 25%;
+    margin-left: 25%;
+    border-collapse: collapse;
+    width: 50%;
+  }
+    td, th {
+    border: 5px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+    caption{
+    font-size: 40px;
+  }
+</style>
 <body>
-    <h1>Wel-Come to the Web Development class.</h1>
-    <div class="one">
-        <h1>This is the first heading of the page.</h1>
-        <p id="param1">This is the first paragraph.What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            
-            Why do we use it?
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            
-            </p>
-    </div>
+    <table border="1">
+        <caption><h1> This is a sample table.</h1></caption>
+
+        <tr>
+            <th   rowspan="2">Name</th>
+            <th rowspan="2">Class</th>
+            <th rowspan="2">Roll</th>
+            <th rowspan="2" >Email</th>
+            <th rowspan="2">Gender</th>
+            <th colspan="2">subject</th>
+            <th rowspan="2">Points</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>Manish</td>
+            <td>12</td>
+            <td>12</td>
+            <td>manishmamma21@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>NO</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Suraj</td>
+            <td>12</td>
+            <td>13</td>
+            <td>surajyadav@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>yes</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Kiran</td>
+            <td>12</td>
+            <td>14</td>
+            <td>kiranpathak21@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>NO</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Gopal</td>
+            <td>12</td>
+            <td>15</td>
+            <td>gopalthapa321@gmail.com</td>
+            <td>Male</td>
+            <td>yes</td>
+            <td>NO</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Ankita</td>
+            <td>12</td>
+            <td>16</td>
+            <td>joshiankita321@gmail.com</td>
+            <td>Female</td>
+            <td>No</td>
+            <td>NO</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Kabita</td>
+            <td>12</td>
+            <td>17</td>
+            <td>joshikabita432@gmail.com</td>
+            <td>Female</td>
+            <td>No</td>
+            <td>NO</td>
+            <td>20</td>
+        </tr>
+      
+        <tr>
+
+         <td colspan="7"> Total Number Obtained</td>
+        <td> 540</td> 
+         </tr>
+
+    </table>
+    <input type="radio" id="male" name="gender" value="male"/>
+    <label for="male">Male</label><br/>
+    <input type="radio" id="Female" name="gender" value="Female"/>
+    <label for="Female">Female</label><br/>
+    <input type="radio" id="other" name="gender" value="other"/>
+    <label for="other">other</label><br/>
+
+
+   
+    </form>
+    
 </body>
 </html>
+
