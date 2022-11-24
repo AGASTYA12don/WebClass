@@ -1,10 +1,12 @@
 <?php
-// Single Line Comment
+//This program is the basic of arithmetic operations
+$x=4;
+$y=7;
+ echo"The sum of $x and $y is:" . $x + $y . "<br>";
+ echo "The subtraction of $x and $y is :" . $x - $y  . "<br>";
+ echo "The multply of $x and $y is :" . $x*$y . "<br>";
+ echo "The devide of $x and $y is :" . $x/$y . "<br>";
+ 
+ 
 
-/* This is a Double line comment
-This should need to be known to all of the fphp programmer. */
-echo "<h1> Hello from Manish Bikram Malla.";
-$x="<h1>This is a variable x<h1>";
-$y="This is a variable y";
-echo $x.$y
 ?>
