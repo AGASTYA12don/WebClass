@@ -1,17 +1,24 @@
-<?php
-//This program is the basic of arithmetic operations
-$mask=50;
-if ($mask > 80) {
-    echo "Distiction";
-}
+<!DOCTYPE html>
+<html>
+<body>
+<?php 
+for ($x = 1; $x <= 10; $x++) {
+    $b = 5 * $x ;
+    echo "5 * " .  $x . "= ". $b. "<br>";
+} 
+?>
 
-elseif($mask < 50)
-{
-    echo "Third dividion ";
+<?php 
+for ($x = 2; $x <= 100; $x+=2) {
+if ($x == 60){
+    continue;
 }
-
-else 
-{
-    echo "pass";
+echo "The number is: $x <br>";
 }
 ?>
+
+
+
+
+</body>
+</html>
